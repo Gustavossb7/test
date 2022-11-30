@@ -13,20 +13,6 @@ PRIMARY KEY (‘employee_id‘)
 
 ```
 
-E aqui está a estrutura do projeto:
-
-
-
-
-
-
-
-
-
-
-
-
-
 Em primeiro lugar, criamos a classe Employee com EmployeesId e EmployeesName. A classe Person será a entidade que vamos armazenar e recuperar do banco de dados usando o JPA.
 O @Entity marca a classe como a Entidade JPA. Mapeamos as propriedades da classe Employee com as colunas da classe Employee tabela e a entidade com a própria tabela de funcionários usando a anotação @Table.
 O método toString é substituído para que possamos obter uma saída significativa quando imprimirmos a instância da classe.
